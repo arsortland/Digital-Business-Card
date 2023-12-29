@@ -1,0 +1,95 @@
+.intro {
+  text-align: center;
+}
+
+.intro > h2 {
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.intro > h3 {
+  color: #F3BF99;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.intro > a {
+  color: #F5F5F5;
+  font-size: 10px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.intro > img {
+  max-width: 320px;
+  max-height: 320px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.contact > button {
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  border: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.mailbtn {
+  color: #374151;
+  background-color: white;
+}
+
+.linkedinbtn {
+  color: #FFFFFF;
+  background-color: #5093E2;
+}
+
+.content {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.content > h3 {
+  font-weight: 700;
+  color: #F5F5F5;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 0px;
+
+}
+
+.content > p {
+  font-weight: 400;
+  color: #DCDCDC;
+  font-size: 11px;
+  line-height: 16px;
+  margin-top: 0px;
+}
+
+.footer {
+  background-color: #161619;
+  display: flex;
+  justify-content: center;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer > img {
+  padding: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
